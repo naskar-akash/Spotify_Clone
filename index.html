@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <!-- <img src="logo.svg" alt="" srcset=""> -->
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo flex">
+            <img class="invert" width="50px" src="img/logo.svg" alt="" srcset="" />
+            <div class="logoName">Spotifyy</div>
+            <img class="invert leftWard" src="img/leftward.svg" alt="" srcset="" />
+          </div>
+          <ul>
+            <li>
+              <img class="invert" src="img/home.svg" alt="home" srcset="" />Home
+            </li>
+            <li>
+              <img
+                class="invert"
+                src="img/search.svg"
+                alt="search"
+                srcset=""
+              />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading flex">
+            <i class="fa-solid fa-microphone"></i>
+            <h3>Your Library</h3>
+          </div>
+
+          <div class="songList">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                >Safety & Privacy Center</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                >Privacy Policy</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >Cookies</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                >Accessibility</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="flex justify-centre align-centre">
+              <img
+                class="hamburger invert"
+                src="img/hamburger.svg"
+                alt=""
+                srcset=""
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#fffff"
+                fill="none"
+              >
+                <path
+                  d="M11.5 18C11.5 18 5.50001 13.5811 5.5 12C5.49999 10.4188 11.5 6 11.5 6"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#fffff"
+                fill="none"
+              >
+                <path
+                  d="M5.50005 18C5.50005 18 11.5 13.5811 11.5 12C11.5 10.4188 5.5 6 5.5 6"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupBtn">Sign up</button>
+            <button class="loginBtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <h1>Spotify Playlist</h1>
+          <div class="cardContainer"> </div>
+          <div class="playbar">
+            <div class="seekBar">
+              <div class="circle"></div>
+            </div>
+
+            <div class="aboveBar">
+              <div class="songInfo"></div>
+              <div class="songButtons">
+                <img
+                  id="previous"
+                  class="invert"
+                  src="img/backward.svg"
+                  alt=""
+                  srcset=""
+                />
+                <img
+                  id="play"
+                  class="invert"
+                  src="img/pause.svg"
+                  alt=""
+                  srcset=""
+                />
+                <img
+                  id="next"
+                  class="invert"
+                  src="img/forward.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="timeVol flex justify-centre align-centre">
+                <div class="songTime"></div>
+                <div class="volume">
+                   <img width="25px" class="invert" src="img/volume.svg" alt="" srcset="">
+                   <div class="range">
+                    <input type="range" name="volume">
+                    <div class="volMsg"></div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
