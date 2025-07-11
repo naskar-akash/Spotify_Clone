@@ -25,3 +25,5 @@ So when the app is opened in browser there will no collection of songs.
   "title": "collection title",
   "description": "Description for collection"
   }
+  # Screenshots
+  ![Home Page](https://github.com/naskar-akash/Spotify_Clone/issues/1)
