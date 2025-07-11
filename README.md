@@ -26,4 +26,5 @@ So when the app is opened in browser there will no collection of songs.
   "description": "Description for collection"
   }
   # Screenshots
-  ![Home Page](https://github.com/naskar-akash/Spotify_Clone/issues/1#issue-3221779166)
+  ![Home Page for PCs](https://github.com/naskar-akash/Spotify_Clone/issues/1#issue-3221779166)
+  ![Home page for Mobile](https://github.com/naskar-akash/Spotify_Clone/issues/1#issuecomment-3060877839)
